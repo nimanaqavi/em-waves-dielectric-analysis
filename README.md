@@ -106,7 +106,7 @@ The MATLAB script `FW_HW1_Q2.m` reads the CST S11, S21, and skin depth export fi
 | ![Field 65 GHz](Images/PJ1_65Ghz.gif) | Field distribution at the center frequency (65 GHz) |
 | ![Field 75 GHz](Images/PJ1_75Ghz.gif) | Field distribution at the band-end frequency (75 GHz) |
 
-### Part 2: Skin Depth (εr = 9, tan δ = 0.17, fc = 62 GHz)
+### Part 2: Skin Depth (εr = 9, tan δ = 0.17, f = 62 GHz)
 
 | Result | Description |
 |---|---|
