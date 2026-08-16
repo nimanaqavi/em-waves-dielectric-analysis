@@ -95,27 +95,28 @@ The MATLAB script `FW_HW1_Q2.m` reads the CST S11, S21, and skin depth export fi
 
 ## Simulation Results
 
-### Part 1 — Impedance Transformer (Plexiglass, fc = 65 GHz)
+### Part 1: Impedance Transformer (Plexiglass, fc = 65 GHz)
 
 | Result | Description |
 |---|---|
-| ![S11 comparison](placeholder-s11-part1.png) | Reflection coefficient (S11): theory vs. CST simulation |
-| ![S21 comparison](placeholder-s21-part1.png) | Transmission coefficient (S21): theory vs. CST simulation |
-| ![E-field at 55 GHz](PJ1_55Ghz.gif) | Field distribution at the band-start frequency (55 GHz) |
-| ![E-field at 65 GHz](PJ1_65Ghz.gif) | Field distribution at the center frequency (65 GHz) |
-| ![E-field at 75 GHz](PJ1_75Ghz.gif) | Field distribution at the band-end frequency (75 GHz) |
+| ![Structure](Images/structure.png) | CST simulation structure |
+| ![S11 Plot](Images/S11_plot.png) | Reflection coefficient (S11): theory vs. CST simulation |
+| ![S21 Plot](Images/S21_plot.png) | Transmission coefficient (S21): theory vs. CST simulation |
+| ![Field 55 GHz](Images/PJ1_55Ghz.gif) | Field distribution at the band-start frequency (55 GHz) |
+| ![Field 65 GHz](Images/PJ1_65Ghz.gif) | Field distribution at the center frequency (65 GHz) |
+| ![Field 75 GHz](Images/PJ1_75Ghz.gif) | Field distribution at the band-end frequency (75 GHz) |
 
-### Part 2 — Skin Depth (εr = 9, tan δ = 0.17, fc = 62 GHz)
+### Part 2: Skin Depth (εr = 9, tan δ = 0.17, fc = 62 GHz)
 
 | Result | Description |
 |---|---|
-| ![S11 comparison](placeholder-s11-part2.png) | Reflection coefficient (S11): theory vs. CST simulation |
-| ![S21 comparison](placeholder-s21-part2.png) | Transmission coefficient (S21): theory vs. CST simulation |
-| ![Skin depth comparison](placeholder-skin-depth.png) | Skin depth (δ) vs. frequency: theory vs. CST simulation |
-| ![E-field at 52 GHz](PJ2_52Ghz.gif) | Field attenuation at the band-start frequency (52 GHz) |
-| ![E-field at 62 GHz](PJ2_62Ghz.gif) | Field attenuation at the center frequency (62 GHz) |
-| ![E-field at 72 GHz](PJ2_72Ghz.gif) | Field attenuation at the band-end frequency (72 GHz) |
-
+| ![Structure](Images/Q2_structure.png) | CST simulation structure |
+| ![S11 Plot](Images/Q2_S11_plot.png) | Reflection coefficient (S11): theory vs. CST simulation |
+| ![S21 Plot](Images/Q2_S21_plot.png) | Transmission coefficient (S21): theory vs. CST simulation |
+| ![Skin Depth Plot](Images/Q2_SkinDepth_plot.png) | Skin depth (δ) vs. frequency: theory vs. CST simulation |
+| ![Field 52 GHz](Images/PJ2_52Ghz.gif) | Field attenuation at the band-start frequency (52 GHz) |
+| ![Field 62 GHz](Images/PJ2_62Ghz.gif) | Field attenuation at the center frequency (62 GHz) |
+| ![Field 72 GHz](Images/PJ2_72Ghz.gif) | Field attenuation at the band-end frequency (72 GHz) |
 The report (`main.pdf`) shows the full result plots and field distribution figures.
 
 ## How to Run
