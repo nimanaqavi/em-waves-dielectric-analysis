@@ -95,12 +95,12 @@ The MATLAB script `FW_HW1_Q2.m` reads the CST S11, S21, and skin depth export fi
 
 ## Simulation Results
 
-### Part 1: Impedance Transformer (Plexiglass, fc = 65 GHz)
+### Part 1: Impedance Transformer (Plexiglass, f = 65 GHz)
 
 | Result | Description |
 |---|---|
 | ![Structure](Images/structure.png) | CST simulation structure |
-| ![S11 Plot](Images/S11_plot.eps) | Reflection coefficient (S11): theory vs. CST simulation |
+| ![S11 Plot](Images/S11_plot.png) | Reflection coefficient (S11): theory vs. CST simulation |
 | ![S21 Plot](Images/S21_plot.png) | Transmission coefficient (S21): theory vs. CST simulation |
 | ![Field 55 GHz](Images/PJ1_55Ghz.gif) | Field distribution at the band-start frequency (55 GHz) |
 | ![Field 65 GHz](Images/PJ1_65Ghz.gif) | Field distribution at the center frequency (65 GHz) |
